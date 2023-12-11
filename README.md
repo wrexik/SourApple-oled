@@ -1,4 +1,4 @@
-# AppleJuice-oled - Apple Juice Oled integration
+# AppleJuice Oled integration
 ## Apple Juice esp32 [[Rolandstoner's repo](https://github.com/ronaldstoner/AppleJuice-ESP32)] with I2C Oled Integration
 * Most of the code is copied, not my work.
 * You can use this to just look cooler, it shows the info and number of brodcased devices :D
