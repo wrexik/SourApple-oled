@@ -79,7 +79,7 @@ void loop() {
   int index = random(12);
   oAdvertisementData.addData(std::string((char*)DEVICES_SHORT[index], 23));
 
-  int adv_type_choice = random(3);
+  int adv_type_choice = random(2);
   if (adv_type_choice == 0){
     pAdvertising->setAdvertisementType(ADV_TYPE_IND);
   } else if (adv_type_choice == 1){
