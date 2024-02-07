@@ -1,6 +1,8 @@
 // This example takes heavy inpsiration from EvilAppleJuice by ckcr4lyf
 // Tested on Wemos Lolin32 ESP32 with built-in SSD1306 OLED
 
+// This version is without the OLED display!
+
 #include <Arduino.h>
 
 #include <BLEDevice.h>
@@ -79,7 +81,10 @@ void loop() {
   int index = random(12);
   oAdvertisementData.addData(std::string((char*)DEVICES_SHORT[index], 23));
 
-  int adv_type_choice = random(2);
+  int adv_type_choice = random(3);
+
+  Serial.print(adv_type_choice);
+  
   if (adv_type_choice == 0){
     pAdvertising->setAdvertisementType(ADV_TYPE_IND);
   } else if (adv_type_choice == 1){
