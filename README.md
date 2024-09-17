@@ -8,4 +8,4 @@
 ## Instalation
 Easiest way to flash it to your board will be through PlatformIO in visual studio code.
 
-I recomend using this ESP32 ESP-WROOM-32. [[AliExpress link](https://www.aliexpress.com/item/1005005178736422.html?gatewayAdapt=glo2isr)]. Anything will work just make sure that you change the right pins of the oled in the code.
+I recomend using this ESP32 ESP-WROOM-32. [[AliExpress link](https://vi.aliexpress.com/item/1005006224993088.html)]. Anything will work just make sure that you change the right pins of the oled in the code.
