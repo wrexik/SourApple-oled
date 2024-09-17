@@ -1,7 +1,8 @@
 # SourApple Oled integration
 ## Apple Juice esp32 [[Rolandstoner's repo](https://github.com/ronaldstoner/AppleJuice-ESP32)] with I2C Oled Integration
 * Most of the code is copied, not my work.
-* You can use this to just look cooler, it shows the info and number of brodcased devices :D
+* You can use this to just look cooler, it shows the info and number of broadcased devices :D
+* And cool hello kitty, but dont tell anyone!
 ### There is not much to say, just have fun messing with your 🍎 friends. But still make sure they dont understand, because it is still posible to replicate on android :P
 
 ## Instalation
